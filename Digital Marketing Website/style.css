@@ -1,0 +1,299 @@
+/* Navbar Styling */
+.navbar-brand{
+    margin-right: 250px;
+}
+.logo {
+    font-weight: bold;
+    margin-right: 150px; /* Adjust this value for desired spacing */
+    margin-left: 50px;
+    color: rgb(237, 233, 236); /* Adjust color as needed */
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: rgb(244, 6, 6); /* Adjust color as needed */
+}
+
+.navbar-nav .nav-item {
+    margin-right: 60px; /* Add margin between nav items */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    text-decoration: underline;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-subtitle {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.hero-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+.section-text {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.img-fluid{
+    
+    width: 375px;
+    height: 460px;
+}
+.btn-custom {
+    background-color: #FF3147;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 2px;
+    letter-spacing: 1.4px;
+}
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.modal-body {
+    padding: 2rem;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.form-control {
+    border-radius: 0.25rem;
+}
+
+.form-check-label {
+    font-size: 12px;
+}
+
+.btn-custom {
+    background-color: #FF3147;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 2px;
+    letter-spacing: 1.4px;
+}
+
+.service-item {
+    position: relative;
+    overflow: hidden;
+}
+.images{
+    width: 500px;
+    height: 460px;
+    background: transparent url('hero.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.service-img {
+    width: 250px; /* Adjust this value as needed */
+     /* Adjust this value to control maximum width */
+    height: 390px;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.5s ease;
+}
+
+.service-item:hover .service-img {
+    transform: scale(1.2);
+}
+.content-item {
+    cursor: pointer;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.content-item.active {
+    background-color: #FF3147;
+    color: white;
+}
+.hover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 49, 71, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.service-item:hover .hover-overlay {
+    opacity: 1;
+}
+
+.hover-content {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hover-content h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.hover-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.carousel-indicators {
+    position: absolute;
+    top: 103%;
+    left: -95%;
+    transform: translateY(-50%);
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+.carousel-indicators li {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: black;
+    border: 1px solid transparent;
+    
+    transition: all 0.3s ease;
+}
+.carousel-indicators .active {
+    background-color: rgb(254, 253, 253);
+    border-color: red;
+    width: 14px;
+    height: 14px;
+    position: relative;
+}
+.carousel-indicators .active::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 6px;
+    height: 6px;
+    background-color: red;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+/* styles for the Company Growth section */
+.icon-img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.growth-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.growth-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+}
+
+.hero-subtitle {
+    color: #FF3147;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.text-center h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text-center p {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.text-center {
+    padding: 20px;
+}
+
+/*styles for the Client Feedback section */
+.hero-subtitle {
+    color: #FF3147;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.feedback-item {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.feedback-text {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.feedback-author {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 20px;
+}
+
+.feedback-author strong {
+    color: #FF3147;
+}
+
+.bg-danger {
+    background-color: #FF3147 !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* New styles for the logos */
+.logos-container {
+    width: 100%;
+    height: 54px;
+    background-image: url('logos.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
